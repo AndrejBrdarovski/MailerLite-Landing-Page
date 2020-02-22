@@ -1,0 +1,94 @@
+/* CSS Contents */
+/* ========================================
+ *General
+ **Specifics
+ ***Responsive
+ ======================================== */
+
+
+ /* *General start */
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Regular.otf) format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNovaThin.otf) format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNovaBold.otf) format('opentype');
+    font-weight: bold;
+}
+body {
+    max-width: 1800px;
+    color: #545454;
+    font-family: ProximaNova, Arial, sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+h1, h2 {
+    font-weight: bold;
+}
+img {
+    width: 100%
+}
+h4 {
+    font-weight: 300;
+}
+/* *General end */
+/* ================== */
+/* **Specifics start */
+.custom-jumbo {
+    color: #fff;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0px, rgba(0, 0, 0, 0.65) 100%), url("../img/photo1-prog.jpg") no-repeat;
+    background-size: cover; 
+    background-position-x: center;
+    background-position-y: center;
+}
+.jumbo-flex-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo {
+    width: 110px;
+}
+.custom-jumbo ul {
+    font-size: 20px;
+}
+.custom-jumbo ul li:last-child {
+    list-style: none;
+}
+.subscribers-num {
+    font-weight: 300;
+}
+.subscribers-num span {
+    font-weight: bold;
+}
+h4 span {
+    font-weight: bold;
+}
+/* **Specifics end */
+/* ===================== */
+/* ***Responsive start */
+@media (min-width: 576px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 1200px) {
+
+}
+/* ***Responsive end */
