@@ -1,5 +1,5 @@
 # MailerLite-Landing-Page
-===============================================================
+---------------------------------------
 Landing page created in Bootstrap 4, as a task for an interview.
 Code is optimized
 Minimum css 
