@@ -5,3 +5,5 @@ Code is optimized
 Minimum css 
 Photos are optimized as progressive so that the page can load faster even on lower network speed
 Fully responsive
+Basic SEO
+Favicons
