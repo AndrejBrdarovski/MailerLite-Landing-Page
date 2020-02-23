@@ -5,7 +5,6 @@
  ***Responsive
  ======================================== */
 
-
  /* *General start */
 @font-face {
     font-family: ProximaNova;
@@ -47,10 +46,16 @@ h4 {
 /* **Specifics start */
 .custom-jumbo {
     color: #fff;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0px, rgba(0, 0, 0, 0.65) 100%), url("../img/photo1-prog.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0px, rgba(0, 0, 0, 0.75) 100%), url("../img/photo1-prog.jpg") no-repeat;
     background-size: cover; 
-    background-position-x: center;
+    background-position-x: 70%;
     background-position-y: center;
+}
+.form-jumbo {
+    color: #fff;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0px, rgba(0, 0, 0, 0.8) 100%), url("../img/photo2-prog.jpg") center no-repeat;
+    background-size: cover; 
+    margin: 0 auto;
 }
 .jumbo-flex-cont {
     display: flex;
@@ -61,6 +66,9 @@ h4 {
     width: 110px;
 }
 .custom-jumbo ul {
+    font-weight: 300;
+}
+.custom-jumbo ul, .features-row ul {
     font-size: 20px;
 }
 .custom-jumbo ul li:last-child {
@@ -75,6 +83,29 @@ h4 {
 h4 span {
     font-weight: bold;
 }
+.unsubscribe-paragraf {
+    font-size: 24px;
+}
+#emailHelp {
+    text-indent: 5px;
+    color: #fff;
+}
+#check-subs {
+    transform: scale(1.2);
+}
+.sub-note label {
+    cursor: pointer;
+}
+.logo-footer {
+    width: 100px;
+    filter: grayscale(1);
+    opacity: 0.8;
+    transition: all ease 0.3s;
+}
+.logo-footer:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
 /* **Specifics end */
 /* ===================== */
 /* ***Responsive start */
@@ -82,14 +113,5 @@ h4 span {
     h1 {
         font-size: 3.5rem;
     }
-}
-@media (min-width: 768px) {
-
-}
-@media (min-width: 992px) { 
-
-}
-@media (min-width: 1200px) {
-
 }
 /* ***Responsive end */
