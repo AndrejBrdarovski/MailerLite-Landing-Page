@@ -65,7 +65,7 @@ h4 {
 .logo {
     width: 110px;
 }
-.custom-jumbo ul {
+.custom-jumbo ul, .features-row ul {
     font-weight: 300;
 }
 .custom-jumbo ul, .features-row ul {
